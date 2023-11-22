@@ -1,0 +1,88 @@
+.footer {
+    width: 100%;
+    background: #363636;
+    color: #FFF;
+    font-family: 'Proxima Nova Rg';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 50px 32px 0 32px; */
+    
+}
+.footer__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 132px;
+    margin: auto;
+    position: relative;
+}
+.header__title {
+    color: #FFF;
+}
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 56px;
+}
+.footer__text {
+    margin: 0;
+    padding: 0;
+}
+.footer__conteiner-title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.footer__title {
+    margin: 0 0 0 8px;
+    padding: 0;
+    color: #FF8B00;
+    text-transform: uppercase;
+}
+.footer__news {
+    width: 299px;
+    height: 295px;
+    background: #FFF;
+    margin: 50px 0;
+}
+.footer__conteiner-logo {
+    background-color: #7050E5;
+}
+.footer__logo-twitter {
+    background-color: #5634D1;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer__twitter {
+    width: 39px;
+    height: 39px;
+}
+.footer__links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer__copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Raleway-Medium';
+    line-height: 20px;
+    font-size: 10px;
+}
+.footer__copyright-icon {
+    width: 9px;
+    height: 10px;
+    margin: 5px;
+}
+.footer__logo {
+    position: absolute;
+    right: 32px;
+    bottom: 32px;
+}

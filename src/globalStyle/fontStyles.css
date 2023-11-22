@@ -1,0 +1,43 @@
+@import url(../fonts/ProximaNova/stylesheet.css);
+@import url(../fonts/Raleway/raleway.css);
+
+h1, h2, h3, p, a, ul, li, header  {
+  margin: 0;
+  padding: 0;
+}
+a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.header1 {
+  font-family: 'Proxima Nova Th';
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 55px;
+}
+.header2 {
+  font-family: 'Proxima Nova Th';
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+.header3 {
+  font-family: 'Proxima Nova Th';
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 72px;
+}
+.link {
+  color: #FFF;
+  text-decoration: none;
+  font-family: 'Proxima Nova Lt';
+  font-size: 14px;
+  line-height: 20px;
+}
+.text1 {
+  color: #FFF;
+  font-family: 'Proxima Nova Lt';
+  font-size: 16px;
+  line-height: 30px;
+}
