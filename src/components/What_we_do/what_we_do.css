@@ -18,7 +18,18 @@
 .what_we_do__grid {
     display: grid;
     grid-template-columns: repeat(3, 280px);
-    grid-template-rows: repeat(2, 1fr);
-    gap: 100px 80px;
+    grid-template-rows: repeat(2, auto);
+    gap: 80px 100px;
     justify-content: center;
+    margin-top: 68px;
+}
+.what_we_do__element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px #7050E5 solid;
+}
+.what_we_do__picture {
+    max-height: 150px;
+    margin: 0 auto;
 }
