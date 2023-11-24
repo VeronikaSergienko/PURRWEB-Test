@@ -1,0 +1,24 @@
+.what_we_do {
+    background: #F8F8F8;
+    padding: 120px 300px;
+}
+.what_we_do__conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.what_we_do__title {
+    color: #7050E5;
+    margin-top: 25px;
+    margin-right: 19px;
+}
+.what_we_do__icon {
+    justify-self: flex-start;
+}
+.what_we_do__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 100px 80px;
+    justify-content: center;
+}

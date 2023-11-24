@@ -1,11 +1,15 @@
 @import url(../fonts/ProximaNova/stylesheet.css);
 @import url(../fonts/Raleway/raleway.css);
 
-h1, h2, h3, p, a, ul, li, header  {
+body, div, h1, h2, h3, p, a, ul, li, header, button  {
   margin: 0;
   padding: 0;
 }
 a:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+button:hover {
   opacity: 0.5;
   cursor: pointer;
 }
@@ -20,7 +24,7 @@ a:hover {
   font-family: 'Proxima Nova Th';
   font-weight: 700;
   font-size: 60px;
-  line-height: 72px;
+  line-height: 68px;
 }
 .header3 {
   font-family: 'Proxima Nova Th';
@@ -40,4 +44,11 @@ a:hover {
   font-family: 'Proxima Nova Lt';
   font-size: 16px;
   line-height: 30px;
+}
+.text_button {
+  font-family: 'Proxima Nova Th';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 45px;
+  color: #FFF;
 }

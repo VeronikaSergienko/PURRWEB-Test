@@ -1,12 +1,15 @@
 .header {
-    background: #fff url(../../images/background_header.svg) no-repeat center / cover;
-    background-size: 100% 810px;
+    background-image: url(../../images/background_header.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 810px;
+    border: none;
+    /* height: 810px; */
 }
 .header__content {
-    margin: 0 auto;
+    margin: 0 224px;
 }
 .header__conteiner {
     display: flex;
@@ -19,6 +22,9 @@
     height: 100px;
     margin-top: 32px;
 }
+.header__logo-bird {
+
+}
 .header__links {
     display: flex;
     flex-direction: row;
@@ -26,6 +32,49 @@
     list-style: none;
     margin-top: 80px;
 }
+.header__conteiner-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header__conteiner-text {
+    max-width: 562px;
+    margin-right: 220px;
+}
 .header__title {
     margin-bottom: 12px;
+}
+.header__button {
+    border: 0;
+    width: 174px;
+    border-radius: 4px;
+    background: #FF8B00;
+    box-shadow: none;
+    padding: 4px 40px;
+    margin-top: 44px;
+}
+.header__conteiner_icon {
+    margin-top: 135px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 20px;
+}
+.header__icon-union {
+    width: 27px;
+    height: 27px;
+    margin-top: 19px;
+}
+@media screen and (max-width: 603px) {
+    .header__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .header__text {
+        line-height: 20px;
+    }
+
 }
