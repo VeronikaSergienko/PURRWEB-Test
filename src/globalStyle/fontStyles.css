@@ -32,6 +32,14 @@ button:hover {
   font-size: 60px;
   line-height: 72px;
 }
+.title4 {
+  color: #7050E5;
+  font-family: 'Proxima Nova Rg';
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 .link {
   color: #FFF;
   text-decoration: none;
@@ -44,6 +52,12 @@ button:hover {
   font-family: 'Proxima Nova Lt';
   font-size: 16px;
   line-height: 30px;
+}
+.text2 {
+  font-family: 'Proxima Nova Rg';
+  color: #878787;
+  font-size: 15px;
+  line-height: 19px;
 }
 .text_button {
   font-family: 'Proxima Nova Th';

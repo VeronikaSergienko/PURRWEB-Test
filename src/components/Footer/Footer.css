@@ -15,7 +15,7 @@
     justify-content: center;
     gap: 132px;
     margin: auto;
-    position: relative;
+    flex-wrap: wrap;
 }
 .header__title {
     color: #FFF;
@@ -83,11 +83,11 @@
     margin: 5px;
 }
 .footer__logo {
-    position: absolute;
-    right: 32px;
-    bottom: 32px;
 }
 @media screen and (max-width: 1086px) {
+    .footer__content {
+        gap: 50px;
+    }
     .footer__copyright {
         font-size: 8px;
         line-height: 20px;

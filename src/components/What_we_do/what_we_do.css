@@ -9,7 +9,6 @@
 }
 .what_we_do__title {
     color: #7050E5;
-    margin-top: 25px;
     margin-right: 19px;
 }
 .what_we_do__icon {
@@ -26,10 +25,34 @@
 .what_we_do__element {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     border: 1px #7050E5 solid;
 }
 .what_we_do__picture {
     max-height: 150px;
-    margin: 0 auto;
+    margin: 0 auto 28px auto;
+}
+@media screen and (max-width: 1260px) {
+    .what_we_do {
+        padding: 48px 52px;
+    }
+    .what_we_do__grid {
+        grid-template-columns: repeat(2, 280px);
+        grid-template-rows: repeat(3, auto);
+        gap: 80px 100px;
+        justify-content: center;
+        margin-top: 68px;
+    }
+}
+@media screen and (max-width: 760px) {
+    .what_we_do {
+        padding: 48px 52px;
+    }
+    .what_we_do__grid {
+        grid-template-columns: repeat(1, 280px);
+        grid-template-rows: repeat(6, auto);
+        gap: 60px;
+        justify-content: center;
+        margin-top: 68px;
+    }
 }
